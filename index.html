@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140242777-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-140242777-2');
+		</script>
+		<!-- Google Tag Manager -->
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-M9GCZFC');
+		</script>
+			<!-- End Google Tag Manager -->
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Kroo | Restaurant Self Ordering</title>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="description" content=" is an easy to use restaurant self ordering platform. " />
+		<meta name="keywords" content="restaurant self ordering, cafe self ordering" />
+		<meta name="author" content="getkroo.com" />
+	  	<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=" Kroo | Restaurant Self Ordering"/>
+		<meta property="og:image" content="images/web/tableTopQRSocialMedia.png"/>
+		<meta property="og:url" content="http://www.getkroo.com/index"/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content="Restaurant Self Ordering"/>
+		<meta name="twitter:title" content="Kroo | Restaurant Self Ordering" />
+		<meta name="twitter:image" content="images/web/tableTopQRSocialMedia.png" />
+		<meta name="twitter:url" content="http://www.getkroo.com/index" />
+		<meta name="twitter:card" content="" />
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,600,700,800,900" rel="stylesheet">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css">
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body style="overflow-x:hidden;">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9GCZFC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<!-- Register Modal -->
+		<div class="modal fade" data-backdrop="static" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="form-header text-center modal-title">Register For Kroo</h5>
+						<button id="waitlistModalCloseBtn" type="button" class="close waitlist-modal-close-element" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="waitlist-modal-close-element">&times;</span>
+						</button>
+					</div>
+					<!-- modal body dynamically filled with registerForm -->
+					<div class="modal-body">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="body-wrapper" style="min-height: 100%;margin-bottom: -200px;">
+		<div id="fh5co-menu" class="navbar">
+      <div class="container">
+        <div class="row">
+					<div class="col-sm-12 col-md-6 navbar-brand-wrapper">
+						<a href="/" class="navbar-brand"></a>
+					</div>
+					<div class="col-sm-12 col-md-6 navbar-links-wrapper" >
+						<a class="nav-link" href="/covid-19-restaurant-ordering">COVID-19</a>
+						<a class="nav-link" href="/contact">Contact</a>
+						<a class="nav-link" href="/faq">FAQ</a>
+					</div>
+        </div>
+      </div>
+    </div>
+		<div id="fh5co-page">
+			<div class="fh5co-intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 fh5co-text">
+							<h1 class="to-animate-disable disable-intro-animate-1" style="margin-bottom:0px;"><br class="mobile-break"><span class="orange">Contactless</span> menu, ordering, and payments for restaurants.</h1>
+							<h3 class="to-animate-disable disable-intro-animate-1" style="color:#777;">Kroo is seamlessly integrated with Square POS and only takes 10 seconds to setup.</h3> <br><br>
+							<p class="to-animate-disable disable-intro-animate-3">
+								<button type="button" id="waitlist-modal-open" class="btn btn-primary"  data-toggle="modal" data-target="#registerModal">
+									Sign Up Today
+								</button>
+								<br>
+							</p>
+						</div>
+						<div class="col-md-6 col-sm-12 fh5co-text text-center">
+							<img src="images/web/diners.svg" style="width:100%;height:auto;" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END .header -->
+
+			<div id="fh5co-main">
+				<div id="fh5co-features" data-section="features">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+								<h2 class="fh5co-lead">The Kroo Benefits</h2>
+								<p class="fh5co-sub"></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon3" src="images/web/icons/noun_POS_2292417.png">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">POS Integrated</h3>
+									<p class="fh5co-feature-text">Orders and payments sent directly to your POS with no complex setup.</p>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon3" src="images/web/icons/noun_Waiter_111666.png" style="padding-top: 17px;">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">Waiter Friendly</h3>
+									<p class="fh5co-feature-text">Does not eliminate waiters but allows them to focus on serving food. </p>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon" src="images/web/icons/noun_Security_957673.png" style="padding-top: 18px;">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">Secure</h3>
+									<p class="fh5co-feature-text">All orders and payments are processed securely using the same financial infrastructure of Square.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon" src="images/web/icons/noun_Food_677333.png" style="padding-top: 20px;">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">Enhanced Menu</h3>
+									<p class="fh5co-feature-text">Digitize your menu allowing you to enhance your menu with photos and deals of the day.</p>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon" src="images/web/icons/noun_Barcode_860830.png" style="padding-top: 21px;">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">Cashless</h3>
+									<p class="fh5co-feature-text">All customers that use Kroo can use QR code scanning to order and pay. No cash. No cards. </p>
+								</div>
+							</div>
+							<div class="col-sm-4 col-xxs-12">
+								<div class="fh5co-feature">
+									<span class="fh5co-feature-icon">
+										<picture>
+											<img class="eyecon" style="max-width: 65px; height: auto; padding-top: 23px;"  src="images/web/icons/noun_dining furniture_1997433.png">
+										</picture>
+									</span>
+									<h3 class="fh5co-feature-lead">Custom Style</h3>
+									<p class="fh5co-feature-text">Our QR codes can be customized in color and appearance to fit your restaurant aesthetic such as table color. </p>
+								</div>
+							</div>
+						</div>
+						<br>
+						<br>
+			    </div>
+				</div>
+				<div id="fh5co-fee">
+					<div class="container" style="text-align:center;">
+						<div class="row">
+							<div class="col-md-12 fh5co-section-heading">
+								<picture>
+									<img style="width:70px; height:auto;" src="images/web/icons/lightning.svg">
+								</picture>
+								<h2 class="fh5co-lead" style="color:white;">Lightning Fast Ordering</h2>
+								<h3 style="color:#EDFDF4;"> No extra app download needed. <br> No complex user registration. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			 <div id="fh5co-features" class="fh5co-features-outer how-it-works">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+							<h2 class="fh5co-lead">How It Works</h2>
+							<p class="fh5co-sub" style="color:black;">It takes less than 10 seconds to sync your POS account. We handle the rest of the details.</p>
+						</div>
+					</div>
+					<div class="row image-text-row">
+						<div class="col-sm-6  sm-6-content col-lg-6 col-lg-push-6 wow  fadeInRight animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInRight;">
+							<h2>Link Your POS</h2>
+							<p>Our team sends a secure link via your POS provider so you can login. This is all we need to set up your digital menu and payments.</p>
+						</div>
+						<div class="col-sm-6 wow col-lg-6 col-lg-pull-6 fadeInLeft animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInLeft;">
+							<div class="col-sm-image-container">
+								<picture>
+									<img class="img-float-left img-responsive" src="images/web/pos.jpg" alt=" Restaurant Self Ordering">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="row image-text-row">
+						<div class="col-sm-6  sm-6-content wow  fadeInLeft animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInLeft;">
+							<h2>Menu Setup</h2>
+							<p>The Kroo team sets up your digital menu including all items, item variations, and item modifiers. No setup on your part.</p>
+						</div>
+						<div class="col-sm-6 wow  fadeInRight animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInRight;">
+							<picture>
+								<img class="img-float-right img-responsive" src="images/web/tacos.jpg" alt=" Restaurant Self Ordering">
+							</picture>
+						</div>
+					</div>
+					<div class="row image-text-row">
+						<div class="col-sm-6 sm-6-content wow col-lg-6 col-lg-push-6  fadeInRight animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInRight;">
+							<h2>Go Live</h2>
+							<p>Our team sends all the posters/signs/QR codes needed based on your restaurant's needs. Once received, you are ready to go live!</p>
+						</div>
+						<div class="col-sm-6 col-lg-6 col-lg-pull-6 wow  fadeInLeft animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInLeft;">
+							<div class="col-sm-image-container">
+								<picture>
+									<img class="img-float-left img-responsive" src="images/web/tableTopQRSmall.png" alt=" Cashless Payment QR Code Scan">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-md-offset-2 text-center fadeIn animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeIn;">
+						<h2>Integrated With</h2>
+						<img src="images/web/square.svg" />
+					</div>
+				</div>
+			</div>
+				<div id="fh5co-products" data-section="products">
+				    <div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+									<h2 class="fh5co-lead animate-single product-animate-1" style="color:white;">Where Kroo Works</h2>
+									<p class="fh5co-sub animate-single product-animate-2" style="color:#EDFDF4;">Kroo can be used in many different restaurant and cafe styles.</p>
+								</div>
+								<div class="col-md-6 col-xxs-12">
+									<div class="fh5co-figure to-animate-disable">
+										<figure>
+											<picture>
+												<img class="img-responsive" src="images/web/fastCasual.jpg" alt="Self Ordering - Fast Casual">
+											</picture>
+										</figure>
+										<h3 class="fh5co-figure-lead">Fast Casual</h3>
+									</div>
+								</div>
+								<div class="col-md-6 col-xxs-12">
+									<div  class="fh5co-figure to-animate-disable">
+										<figure>
+											<picture>
+												<img src="images/web/brewery.jpg" alt="Self Ordering - Brewery" class="img-responsive">
+											</picture>
+										</figure>
+										<h3 class="fh5co-figure-lead">Bars/Breweries</h3>
+									</div>
+								</div>
+								<div class="col-md-6 col-xxs-12">
+									<div class="fh5co-figure to-animate-disable">
+										<figure>
+											<picture>
+												<img src="images/web/cafe.jpg" alt="Self Ordering - Cafe" class="img-responsive">
+											</picture>
+										</figure>
+										<h3 class="fh5co-figure-lead">Cafes/Coffee Shops</h3>
+									</div>
+								</div>
+								<div class="col-md-6 col-xxs-12">
+									<div class="fh5co-figure to-animate-disable">
+										<figure>
+											<picture>
+												<img src="images/web/casualDining.jpeg" alt="Self Ordering - Casual Dining " class="img-responsive">
+											</picture>
+										</figure>
+										<h3 class="fh5co-figure-lead">Casual Dining</h3>
+									</div>
+								</div>
+			        </div>
+				    </div>
+				</div>
+				<div class="fh5co-bg-section cta" id="fh5co-cta">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="fh5co-hero-wrap">
+									<div class="fh5co-hero-intro">
+										<div class="row">
+											<div class="col-md-8 col-md-offset-2 fh5co-section-heading" style="margin-bottom:0px;">
+												<h2 class="fh5co-lead to-animate-disable text-center" style="margin-bottom:15px;">Partner With Kroo</h2>
+												<p style="color:black; text-align:center; color:#108ee9; font-weight:700;" class="to-animate-disable">Improve Customer Experience for Ordering & Payment.</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 col-md-offset-3 col-xxs-12 col-xxs-offset-0">
+												<div id="mc_embed_on_page_wrapper" class="to-animate-disable">
+													<div id="mc_embed_signup">
+														<div id="mce-responses" class="clear">
+															<div class="response" id="mce-error-response" style="display:none"></div>
+															<div class="response" id="mce-success-response" style="display:none"></div>
+														</div>
+														<form action="https://munnypay.us20.list-manage.com/subscribe/post?u=5d15bb3bcc56e1576485ea90e&amp;id=16a205d15e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate onPageWaitlistForm" target="_blank" novalidate>
+															<div id="mc_embed_signup_scroll">
+																<div class="">
+																	<div class="form-group">
+																		<label for="mce-FNAME">Full Name<span class="asterisk">*</span> </label>
+																		<input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME">
+																	</div>
+																</div>
+																<div class="">
+																	<div class="form-group">
+																		<label for="mce-RESTNAME">Restaurant Name  <span class="asterisk">*</span></label>
+																		<input type="text" value="" name="RESTNAME" class="required form-control" id="mce-RESTNAME">
+																	</div>
+																</div>
+																<div class="">
+																	<div class="form-group">
+																		<label for="mce-POSBRAND">POS Brand </label>
+																		<select name="POSBRAND" class="form-control" id="mce-POSBRAND">
+																			<option value=""></option>
+																			<option value="Square">Square</option>
+																			<option value="Toast">Toast</option>
+																			<option value="Clover">Clover</option>
+																			<option value="Oracle">Oracle</option>
+																			<option value="TouchBistro">TouchBistro</option>
+																			<option value="UpServe(Breadcrumb)">UpServe(Breadcrumb)</option>
+																			<option value="Revel">Revel</option>
+																			<option value="Other Brand">Other Brand</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="">
+																	<div class="form-group">
+																		<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+																		<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+																	</div>
+																</div>
+																<div class="">
+																	<div class="form-group">
+																		<label for="mce-PHONE">Cell Number <span class="asterisk">*</span></label>
+																		<input type="text" value="" name="PHONE" class="required form-control" id="mce-PHONE">
+																	</div>
+																</div>
+															  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5d15bb3bcc56e1576485ea90e_16a205d15e" tabindex="-1" value=""></div>
+																	<div class="clear">
+																		<input type="submit" value="Join The Waitlist" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary onPageSubmitBtn" style="margin-top:15px; width:100%;">
+																	</div>
+															</div>
+														</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="height:200px;"></div> <!-- sticky footer push -->
+		</div> <!-- end body-wrapper -->
+
+		<footer id="fh5co-footer" style="">
+			<div class="fh5co-footer-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2 class="fh5co-footer-logo"><a href="/">KROO</a></h2>
+							<p class="fh5co-copyright"><small>&copy; 2019. All Rights Reserved.</small></p>
+							<p class="fh5co-footer-navigation">
+								<a href="/covid-19-restaurant-ordering">COVID-19</a>
+								<a href="/contact">Contact</a>
+								<a href="/faq">FAQ</a>
+								<a href="/privacy">Privacy</a>
+								<a href="/terms-of-use">Terms</a>
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2 class="fh5co-footer-logo" style="color:white">Stay Social</h2>
+							<p class="fh5co-footer-navigation" style="color:white">
+								<a href="https://www.facebook.com/OrderWithKroo"><img src="images/web/icons/social/facebook.svg"/></a>
+								<a href="https://instagram.com/orderwithkroo"><img src="images/web/icons/social/instagram.svg"/></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- Chart JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script type='text/javascript'>
+		(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='RESTNAME';ftypes[2]='text';fnames[5]='POSBRAND';ftypes[5]='dropdown';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
+	</script>
+	<!-- jQuery -->
+	<script async src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script async src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script async src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script async src="js/jquery.waypoints.min.js"></script>
+	<!-- Magnific Popup -->
+	<script async src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Owl Carousel -->
+	<script async src="js/owl.carousel.min.js"></script>
+	<!-- Main JS -->
+	<script async src="js/main.js"></script>
+
+	</body>
+</html>

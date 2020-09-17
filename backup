@@ -1,0 +1,307 @@
+
+<!-- Benefits with Image in Middle -->
+
+<div id="fh5co-features-2" data-section="design">
+  <div class="fh5co-features-2-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+            <h2 class="fh5co-lead">Better design</h2>
+            <p class="fh5co-sub">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+          <div class="col-md-4 fh5co-text-wrap">
+            <div class="row text-center">
+              <div class="col-md-12 col-sm-6 col-xs-6 col-xxs-12 fh5co-text features-2-animate-3">
+                <span class="fh5co-icon"><i class="icon-screen-desktop"></i></span>
+              <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="col-md-12 col-sm-6 col-xs-6 col-xxs-12 fh5co-text features-2-animate-4">
+              <span class="fh5co-icon"><i class="icon-anchor"></i></span>
+              <h4 class="fh5co-uppercase-sm">Prototyping tools</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4 col-md-push-4 fh5co-text-wrap">
+            <div class="row text-center">
+              <div class="col-md-12 col-sm-6 col-xs-6 col-xxs-12 fh5co-text features-2-animate-5">
+                <span class="fh5co-icon"><i class="icon-rocket"></i></span>
+              <h4 class="fh5co-uppercase-sm">Powerful design</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="col-md-12 col-sm-6 col-xs-6 col-xxs-12 fh5co-text features-2-animate-6">
+              <span class="fh5co-icon"><i class="icon-people"></i></span>
+              <h4 class="fh5co-uppercase-sm">User Collaboration</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            
+          </div>
+          </div>
+          <div class="col-md-4 col-md-pull-4 fh5co-image features-2-animate-2">
+            <p class="text-center">
+            <img src="images/iphone_blank_2.png" class="" alt="Outline Free HTML5 Responsive Bootstrap Template">
+            </p>
+          </div>
+          
+        </div>
+      </div>
+  </div>	
+</div>
+
+
+<!-- Navigation Menu -->
+
+
+<!-- <div id="fh5co-offcanvass">
+  <ul>
+    <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+    <li><a href="#" data-nav-section="features">Features</a></li>
+    <li><a href="#" data-nav-section="design">Design</a></li>
+    <li><a href="#" data-nav-section="testimonies">Testimonies</a></li>
+    <li><a href="#" data-nav-section="products">Products</a></li>
+    <li><a href="#" data-nav-section="benefits">Benefits</a></li>
+    <li><a href="#" data-nav-section="pricing">Pricing</a></li>
+    <li><a href="#" data-nav-section="faqs">FAQs</a></li>
+  </ul>
+  <h3 class="fh5co-lead">Connect with us</h3>
+  <p class="fh5co-social-icons">
+    <a href="#"><i class="icon-twitter"></i></a>
+    <a href="#"><i class="icon-facebook"></i></a>
+    <a href="#"><i class="icon-instagram"></i></a>
+    <a href="#"><i class="icon-linkedin"></i></a>
+  </p>
+</div>
+
+<div id="fh5co-menu" class="navbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><span>Menu</span> <i></i></a>
+        <a href="index.html" class="navbar-brand">munny</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+<!-- <div id="fh5co-pricing" data-section="pricing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+        <h2 class="fh5co-lead animate-single pricing-animate-1">Plans built for every one</h2>
+        <p class="fh5co-sub animate-single pricing-animate-2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+
+      <div class="col-md-3 to-animate">
+        <a href="#" class="fh5co-figure">
+          <span class="fh5co-price">$1<span>/month</span></span>
+          <h3 class="fh5co-figure-lead">Starter</h3>
+          <p class="fh5co-figure-text">Far far away behind the word mountains</p>
+        </a>
+      </div>
+      <div class="col-md-3 to-animate">
+        <a href="#" class="fh5co-figure">
+          <span class="fh5co-price">$25<span>/month</span></span>
+          <h3 class="fh5co-figure-lead">Regular</h3>
+          <p class="fh5co-figure-text">Far far away behind the word mountains</p>
+        </a>
+      </div>
+      <div class="col-md-3 to-animate">
+        <a href="#" class="fh5co-figure active pricing-feature">
+          <span class="fh5co-price">$59<span>/month</span></span>
+          <h3 class="fh5co-figure-lead">Plus</h3>
+          <p class="fh5co-figure-text">Far far away behind the word mountains</p>
+        </a>
+      </div>
+      <div class="col-md-3 to-animate">
+        <a href="#" class="fh5co-figure">
+          <span class="fh5co-price">$125<span>/month</span></span>
+          <h3 class="fh5co-figure-lead">Enterprise</h3>
+          <p class="fh5co-figure-text">Far far away behind the word mountains</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+<div id="fh5co-subscribe">
+  <div class="container">
+    <div class="row animate-box">
+      <form action="#" method="post">
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Subscribe">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="fh5co-counter" class="fh5co-bg-section" style="background-image: url(images/bg_1.jpg); background-attachment: fixed;">
+  <div class="fh5co-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="fh5co-hero-wrap">
+          <div class="fh5co-hero-intro text-center to-animate counter-animate">
+            <div class="col-md-4 text-center">
+              <span class="fh5co-counter js-counter" data-from="0" data-to="28" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="fh5co-counter-label">Customers</span>
+              
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fh5co-counter js-counter" data-from="0" data-to="57" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="fh5co-counter-label">Completed Apps</span>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fh5co-counter js-counter" data-from="0" data-to="34023" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="fh5co-counter-label">Downloads</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="fh5co-testimony" data-section="testimonies">
+  <div class="container">
+    <div class="row animate-box">
+
+    <div class="owl-carousel">
+
+      <div class="item">
+        <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+            <figure class="fh5co-vcard"><img src="images/user.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+            <blockquote>
+              <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+            </blockquote>
+            <p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
+          </div>
+        </div>
+
+        <div class="item">
+        <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+            <figure class="fh5co-vcard"><img src="images/user_2.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+            <blockquote>
+              <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+            </blockquote>
+            <p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
+          </div>
+        </div>
+
+        <div class="item">
+        <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+            <figure class="fh5co-vcard"><img src="images/user_3.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+            <blockquote>
+              <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+            </blockquote>
+            <p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<--BENEFITS-->
+
+
+<div id="fh5co-features-3" data-section="benefits">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+        <h2 class="fh5co-lead animate-single features3-animate-1">Benefits of this App</h2>
+        <p class="fh5co-sub animate-single features3-animate-2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-screen-desktop"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-graph"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      
+      <div class="clearfix visible-sm-block"></div>
+
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-anchor"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>	
+
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-camera"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+
+      <div class="clearfix visible-sm-block"></div>
+
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-present"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
+        <div class="fh5co-text to-animate">
+            <span class="fh5co-icon"><i class="icon-energy"></i></span>
+          <h4 class="fh5co-uppercase-sm">Cross platform support</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
