@@ -47,8 +47,8 @@ div.arrow-wrapper{
   color:white;
   margin-bottom:75px;
 }
-.phone-video-player{
-  background:url('images/web/phone-realistic.svg') no-repeat;
+.phone-video-player-bg{
+  background:url('../images/web/phone-realistic.svg') no-repeat;
   height:700px;
   width:358px;
 }
