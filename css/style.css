@@ -7089,12 +7089,6 @@ img.eyecon3{
   font-weight: 500;
 }
 
-#fh5co-products{
-  background: #ff4b1f!important;
-  background: linear-gradient(180deg,#ff7440 0,#ff4b1f)!important;
-  background: -webkit-linear-gradient(180deg,#ff7440 0,#ff4b1f)!important;
-}
-
 #fh5co-products .fh5co-figure img{
   border-radius:5px;
 }
@@ -7482,11 +7476,17 @@ select.form-control  {
 
 #fh5co-footer {
   padding: 2em 0;
-  background: #323a45;
-  color: #878c93;
+  background: #FFF1EE;
+  color: #000000;
   font-family: 'Heebo', Arial, sans-serif;
   font-weight: 300;
+  border-top:1px solid #FFE1DB;
 }
+.social-footer-icon{
+  width:40px;
+  height:auto;
+}
+
 #fh5co-footer .fh5co-overlay {
   position: absolute;
   top: 0;
@@ -7534,7 +7534,7 @@ select.form-control  {
   margin-bottom: 20px;
 }
 #fh5co-footer a {
-  color: #9a9fa5;
+  color: #000000;
 }
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
   color: #ff4b1f;
@@ -7923,52 +7923,6 @@ body.non-home-page .js .animate-single {
 	opacity: 1;
 }
 
-.fh5co-counter {
-  font-size: 50px;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-family: "Heebo", arial, sans-serif;
-  font-display:auto;
-  margin-bottom: .5em;
-}
-
-.fh5co-counter-label {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-family: "Heebo", arial, sans-serif;
-  font-display:auto;
-  letter-spacing: 5px;
-  margin-bottom: 2em;
-  display: block;
-}
-
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-  opacity: 0;
-  -webkit-backface-visibility: hidden;
-  /* ideally, transition speed should match zoom duration */
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.mfp-with-zoom.mfp-ready .mfp-container {
-  opacity: 1;
-}
-
-.mfp-with-zoom.mfp-ready.mfp-bg {
-  opacity: 0.8;
-}
-
-.mfp-with-zoom.mfp-removing .mfp-container,
-.mfp-with-zoom.mfp-removing.mfp-bg {
-  opacity: 0;
-}
-
-
 /*------------- HOW IT WORKS -------------*/
 
 
@@ -7997,28 +7951,6 @@ body.non-home-page .js .animate-single {
 }
 .fh5co-features-outer .col-sm-6 .col-sm-image-container {
   position: relative;
-}
-
-
-
-#footer-skyline{
-  max-width: 50%;
-  vertical-align: bottom;
-  position: relative;
-  bottom:-32px;
-  z-index:0;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  padding-top:0px;
-}
-
-
-@media screen and (max-width: 767px) {
-  #footer-skyline{
-    max-width: 95%;
-    bottom:-48px;
-  }
 }
 
 /* Image Alignment */
