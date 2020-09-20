@@ -24,10 +24,10 @@
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Kroo | Restaurant Self Ordering</title>
+		<title>Kroo | Restaurant Contactless Ordering</title>
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta name="description" content="Kroo is a covid-19 friendly way for customers to order food. Serving Washington DC, New York, and San Francisco. " />
-		<meta name="keywords" content="restaurant self ordering, cafe self ordering" />
+		<meta name="keywords" content="restaurant self ordering, cafe self ordering, contactless ordering" />
 		<meta name="author" content="getkroo.com" />
 	  	<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=" Kroo | COVID-19 Restaurant Ordering"/>
@@ -83,39 +83,41 @@
       </div>
     </div>
   <div class="body-wrapper" style="min-height: 100%;margin-bottom: -200px;">
-    <div id="fh5co-menu" class="navbar">
-      <div class="container">
-        <div class="row">
+		<div id="fh5co-menu" class="navbar">
+			<div class="container">
+				<div class="row" style="display: flex;flex-direction: row;align-items: center;">
 					<div class="col-sm-12 col-md-6 navbar-brand-wrapper">
-						<a href="/" class="navbar-brand"><div class="header-logo"></div></a>
+						<a href="/" class="navbar-brand"></a>
 					</div>
 					<div class="col-sm-12 col-md-6 navbar-links-wrapper" >
-						<a class="nav-link" href="/covid-19-restaurant-ordering">COVID-19 Ordering</a>
+						<a class="nav-link active" href="/covid-19-restaurant-ordering">COVID-19</a>
 						<a class="nav-link" href="/contact">Contact</a>
+						<a class="nav-link" href="/pricing">Pricing</a>
+						<a class="nav-link" href="/faq">FAQ</a>
 					</div>
-        </div>
-      </div>
-    </div>
+				</div>
+			</div>
+		</div>
     <div id="fh5co-page">
-      <header id="fh5co-hero-covid19" class="fh5co-hero" data-section="home" role="banner" >
-        <div class="fh5co-overlay fh5co-overlay-darker"></div>
-        <div class="fh5co-intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 fh5co-text text-center">
-                <h2 class="to-animate-disable disable-intro-animate-1" style="margin-bottom:0px;"><br class="mobile-break">There's a better way to order during COVID-19...</h2>
-                <h3 class="to-animate-disable disable-intro-animate-1">No contact ordering for Square POS.</h3>
-                <p class="to-animate-disable disable-intro-animate-3">
-                  <button type="button" id="waitlist-modal-open" class="btn btn-primary"  data-toggle="modal" data-target="#registerModal">
-                    Sign Up
-                  </button>
-                  <br>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+			<div class="fh5co-intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7 col-sm-12 fh5co-text">
+							<h1 class="to-animate-disable disable-intro-animate-1" style="margin-bottom:0px;">Customer ordering and payment that is organically <span class="orange"> COVID-19 proof.</span></h1>
+							<h3 class="to-animate-disable disable-intro-animate-1" style="color:#777;">Kroo eliminates contact while customers are viewing menus and paying.</h3> <br><br>
+							<p class="to-animate-disable disable-intro-animate-3">
+								<button type="button" id="waitlist-modal-open" class="btn btn-primary"  data-toggle="modal" data-target="#registerModal">
+									Speak With Us
+								</button>
+								<br>
+							</p>
+						</div>
+						<div class="col-md-5 col-sm-12 fh5co-text text-center">
+							<img src="images/web/table.svg" style="width:100%;height:auto;" />
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row image-text-row">
 				<div class="col-sm-6 col-md-2 wow  fadeInRight animated" data-wow-delay="0.22s" style="visibility: visible; animation-delay: 0.22s; animation-name: fadeInRight;">
 					<img style="width:100%; height:auto; max-height:235px;" src="images/web/woman.svg" />
@@ -379,34 +381,34 @@
       <div style="height:200px;"></div> <!-- sticky footer push -->
     </div> <!-- end body-wrapper -->
 
-    <footer id="fh5co-footer" style="">
-      <div class="fh5co-footer-content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h2 class="fh5co-footer-logo"><a href="/">KROO</a></h2>
-              <p class="fh5co-copyright"><small>&copy; 2019. All Rights Reserved.</small></p>
-              <p class="fh5co-footer-navigation">
-								<a href="/covid-19-restaurant-ordering">COVID-19 Ordering</a>
-								<a href="/contact">Contact</a>
-								<a href="/faq">FAQ</a>
-                <a href="/privacy">Privacy</a>
-                <a href="/terms-of-use">Terms</a>
-              </p>
-            </div>
-          </div>
+		<footer id="fh5co-footer" style="">
+			<div class="fh5co-footer-content">
+				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h2 class="fh5co-footer-logo" style="color:white">Stay Social</h2>
-							<p class="fh5co-footer-navigation" style="color:white">
-								<a href="https://www.facebook.com/OrderWithKroo"><img src="images/web/icons/social/facebook.svg"/></a>
-								<a href="https://instagram.com/orderwithkroo"><img src="images/web/icons/social/instagram.svg"/></a>
+							<a class="footer-logo" href="/"><img src="images/logo.svg" style="max-width:200px; height:auto;" /></a>
+							<p class="fh5co-copyright" style="padding-top:20px;">&copy; 2020. All Rights Reserved.</p>
+							<p class="fh5co-footer-navigation">
+								<a href="/covid-19-restaurant-ordering">COVID-19</a>
+								<a href="/contact">Contact</a>
+								<a href="/faq">FAQ</a>
+								<a href="/privacy">Privacy</a>
+								<a href="/terms-of-use">Terms</a>
 							</p>
 						</div>
 					</div>
-        </div>
-      </div>
-    </footer>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p class="fh5co-footer-navigation" style="color:white">
+								<a href="https://www.facebook.com/OrderWithKroo"><img class="social-footer-icon" src="images/web/icons/social/fb.svg"/></a>
+								<a href="https://instagram.com/orderwithkroo"><img class="social-footer-icon" src="images/web/icons/social/instagram.svg"/></a>
+								<a href="mailto:support@getkroo.com"><img class="social-footer-icon" src="images/web/icons/social/email.svg"/></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
   </div>
 
   <!-- Modernizr JS -->
