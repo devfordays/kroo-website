@@ -52,6 +52,14 @@ div.arrow-wrapper{
   height:700px;
   width:358px;
 }
+.image-description-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height:430px !important;
+}
 
 @media screen and (max-width: 767px) {
   .video-wrapper #explainer-video{
@@ -7507,6 +7515,10 @@ a.footer-logo, p.fh5co-footer-navigation{
 #fh5co-footer .container .row > div {
   margin-bottom: 30px;
 }
+.visible-mobile{
+  display:none !important;
+}
+
 @media screen and (max-width: 992px) {
   #fh5co-footer {
     position: relative;
@@ -7516,6 +7528,9 @@ a.footer-logo, p.fh5co-footer-navigation{
 @media screen and (max-width: 768px) {
   .hidden-mobile{
     display:none !important;
+  }
+  .visible-mobile{
+    display:block !important;
   }
   #fh5co-footer {
     padding: 5em 0;
