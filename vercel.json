@@ -6,6 +6,6 @@
     { "src": "/faq", "dest": "/faq.html"},
     { "src": "/privacy", "dest": "/privacy.html"},
     { "src": "/terms-of-use", "dest": "/terms.html"},
-    { "src": "/pricing", "dest": "/pricing.html"},
+    { "src": "/pricing", "dest": "/pricing.html"}
   ]
 }
