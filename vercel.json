@@ -5,7 +5,7 @@
     { "src": "/covid19-restaurant-ordering", "dest": "/covid19-restaurant-ordering.html"},
     { "src": "/faq", "dest": "/faq.html"},
     { "src": "/privacy", "dest": "/privacy.html"},
-    { "src": "/terms-of-use", "dest": "/terms.html"},
+    { "src": "/terms-of-use", "dest": "/terms-of-use.html"},
     { "src": "/pricing", "dest": "/pricing.html"}
   ]
 }
