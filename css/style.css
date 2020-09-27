@@ -61,10 +61,109 @@ div.arrow-wrapper{
   min-height:430px !important;
 }
 
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: flex;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span
+{
+  display: flex;
+  width: 29px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000000;
+  border-radius: 3px;
+  z-index: 1000;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -1px);
+  background: #36383F;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 65vw;
+  height: 100vh;
+  box-shadow: 0 0 10px #85888C;
+  margin: -50px 0 0 -70px;
+  padding: 50px;
+  padding-top: 125px;
+  background-color: #F5F6FA;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  transition-delay: 2s;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
 @media screen and (max-width: 767px) {
   .video-wrapper #explainer-video{
     width: 700px !important;
     height: 392px !important;
+  }
+  #fh5co-menu{
+    padding:0px;
   }
   br.br-mobile{
     display:block;
@@ -93,7 +192,14 @@ div.arrow-wrapper{
     font-size: 19px !important;
   }
 }
-
+#mobile-navbar{
+  display:none;
+}
+#desktop-navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @media screen and (max-width: 480px) {
 
   .video-wrapper #explainer-video{
@@ -123,8 +229,6 @@ div.arrow-wrapper{
 .iframe-container-4x3 {
   padding-top: 75%;
 }
-
-
 
 .fh5co-hero{
   background-position:bottom left;
@@ -2188,6 +2292,16 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
+  #desktop-navbar{
+    display:none;
+  }
+  #mobile-navbar{
+    display:flex;
+    max-height: 40px;
+  }
+  #fh5co-menu .container{
+    padding:0px;
+  }
 }
 
 fieldset {
@@ -3721,7 +3835,6 @@ tbody.collapse.in {
 }
 
 .navbar-brand {
-  float: left;
   padding: 0px 20px;
   font-size: 18px;
   line-height: 20px;
@@ -6674,7 +6787,6 @@ br.mobile-break{
   display: inline-block;
   zoom: 1;
   font-size: 40px;
-  float: left !important;
   z-index: 10;
   position: relative;
 }
@@ -6701,6 +6813,7 @@ br.mobile-break{
   }
   #fh5co-menu{
     margin:0px;
+    padding:10px 20px;
   }
   .navbar-links-wrapper{
     margin:0px auto 0px auto;
