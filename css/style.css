@@ -178,6 +178,7 @@ div.arrow-wrapper{
   .navbar-brand{
     text-align:center !important;
     width:100%;
+    display:inline-block;
   }
   .navbar-brand div.header-logo{
     background-size:cover;
@@ -3838,6 +3839,7 @@ tbody.collapse.in {
   padding: 0px 20px;
   font-size: 18px;
   line-height: 20px;
+  display:flex;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -6743,7 +6745,7 @@ br.mobile-break{
     bottom: -4em;
   }
   .navbar-brand{
-    float:none !important;
+    display:inline-block !important;
   }
 
 }
@@ -6784,7 +6786,7 @@ br.mobile-break{
   text-align: left;
   font-weight: bold;
   display: -moz-inline-stack;
-  display: inline-block;
+  display: flex;
   zoom: 1;
   font-size: 40px;
   z-index: 10;
