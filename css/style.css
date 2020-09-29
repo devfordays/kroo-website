@@ -19,6 +19,21 @@ div.section-light-bg{
   background:#FFF1EE;
 }
 
+img.header-icon{
+  width:25px;
+  height:auto;
+  margin-right:10px;
+}
+h4.header-with-icon{
+  font-weight:400;
+}
+
+div.header-icon-wrapper{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+
 div.page-section{
   position: relative;
   padding: 3.5em 0;
@@ -135,7 +150,7 @@ div.arrow-wrapper{
   margin: -50px 0 0 -70px;
   padding: 50px;
   padding-top: 125px;
-  background-color: #F5F6FA;
+  background-color: #FFF1EE;;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -161,6 +176,9 @@ div.arrow-wrapper{
   .video-wrapper #explainer-video{
     width: 700px !important;
     height: 392px !important;
+  }
+  .phone-video-wrapper{
+    text-align:center;
   }
   #fh5co-menu{
     padding:0px;
@@ -6474,7 +6492,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right:35px;
 }
 
-span.orange{
+span.orange,.orange{
   color:#ff4b1f;
 }
 
