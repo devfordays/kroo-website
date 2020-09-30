@@ -2329,6 +2329,7 @@ table th[class*="col-"] {
   }
   div.list-with-items{
     margin:0 auto;
+    padding:15px;
   }
 }
 
