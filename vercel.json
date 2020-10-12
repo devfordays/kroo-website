@@ -6,6 +6,7 @@
     { "src": "/faq", "dest": "/faq.html"},
     { "src": "/privacy", "dest": "/privacy.html"},
     { "src": "/terms-of-use", "dest": "/terms-of-use.html"},
-    { "src": "/pricing", "dest": "/pricing.html"}
+    { "src": "/pricing", "dest": "/pricing.html"},
+    { "src": "/future-restaurant-trends", "dest": "/future-restaurant-trends.html"},
   ]
 }
